@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - prints 10 times the numbers from 0 - 14
+ * more_numbers - nmbr fct
  *
  * Return: no return
  */
@@ -18,6 +18,6 @@ void more_numbers(void)
 				_putchar('1');
 				_putchar(j % 10 + '0');
 		}
-		_putchar('\n');
+	_putchar('\n');
 	}
 }
