@@ -21,6 +21,15 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
+	result = 0;
+	amount = atoi(argv[1]);
+
+	if (amount < 0)
+	{
+		printf("0\n");
+		return (0);
+	}
+
 	while (amount)
 	{
 		if (amount >= 25)
