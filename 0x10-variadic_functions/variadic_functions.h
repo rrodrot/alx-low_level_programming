@@ -5,7 +5,7 @@
 int _putchar(char c);
 int  sum_them_all(const unsigned int n, ...);
 
-/*
+/**
  * struct format_struct - format-type class
  * @format: format identifier
  * @fmt_print_func: pointer to function that prints in the format of @format
